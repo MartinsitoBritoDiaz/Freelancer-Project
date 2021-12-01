@@ -1,10 +1,8 @@
-# Frontend Mentor - Four card feature section
-
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
+# Project Freelancer HTML - CSS
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out code.
 
 ## Built with
     * HTML
@@ -12,7 +10,6 @@ Thanks for checking out this front-end coding challenge.
 
 ## Links
 
-https://stupefied-tereshkova-01309e.netlify.app/
 
 ## Author
 
