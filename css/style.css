@@ -125,10 +125,15 @@ h3{
 }
 
 .navegacion-principal a:hover{
-    text-align: center;
     color: black;
     background-color: var(--principal);
-    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navegacion-principal a:hover{
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .img-principal{
