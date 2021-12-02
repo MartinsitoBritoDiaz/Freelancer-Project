@@ -1,6 +1,6 @@
 # Project Freelancer HTML - CSS
 
-![imagen](https://user-images.githubusercontent.com/54644026/144357360-eb2c328c-f62e-49fb-a555-17e78f36cde7.png)
+![imagen](https://user-images.githubusercontent.com/54644026/144357531-935074f5-6f62-4af1-af3c-ec58fa959bd1.png)
 
 
 ## Welcome! 👋
