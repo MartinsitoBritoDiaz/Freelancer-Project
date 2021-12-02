@@ -17,7 +17,17 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;  /* Hack para el box model */
+    /* scroll-snap-type: y mandatory; Scroll Snap*/ 
 }
+
+/* Scroll Snap */
+/* .navegacion-principal,
+.servicio,
+.formulario{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+} */
+
 
 *,*before,*after{
     box-sizing: inherit;  /* Hack para el box model */
@@ -115,8 +125,10 @@ h3{
 }
 
 .navegacion-principal a:hover{
+    text-align: center;
     color: black;
     background-color: var(--principal);
+    width: 100%;
 }
 
 .img-principal{
