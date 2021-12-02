@@ -45,6 +45,27 @@ h3{
     font-size: 2rem;
 }
 
+/* Utilidades */
+.w-sm-100{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+     .w-sm-100{
+         width: auto;
+     }
+}
+
+.flex{
+    display: flex;
+}
+
+.alinear-derecha{
+    justify-content: flex-end;
+}
+/* ***************** */
+
+
 .titulo span{
     font-size: 2rem;
 }
@@ -52,6 +73,10 @@ h3{
 .contenedor{
     margin: 0 auto;
     max-width: 120rem;
+}
+
+.contenedor-formulario{
+    padding-bottom: 2rem;
 }
 
 .sombra{
@@ -196,10 +221,10 @@ h3{
 /* Contacto */
 .formulario{
     background-color: var(--grayish-blue);
-    width: min(50rem, 100%);
-    margin: 0 auto;
-    padding: 2rem;
+    width: min(60rem, 90%);
+    margin: 0rem auto;
     border-radius: 2rem;
+    padding: 1rem;
 }
 
 .formulario fieldset{
@@ -207,12 +232,12 @@ h3{
 }
 
 .formulario legend{
-    text-align:center;
     font-weight: 700;
     color: var(--secundario);
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
+    margin: 1rem auto;
+    text-align: center;
 }
 
 .contenedor-campos{
@@ -232,11 +257,8 @@ h3{
 
 .input-text{
     width: 100%;
+    padding: .5rem 0;
     border: none;
-    padding: 1rem;
     border-radius: .5rem; 
 }
 
-.enviar .boton{
-    width: 100%;
-}
